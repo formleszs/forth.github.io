@@ -1,0 +1,119 @@
+header{
+  margin-top: 56px;
+  width: 100%;
+  height: 120px;
+  background-color: #13af80;
+}
+.navbar{
+  background-color: #0c8a66;
+}
+.navbar a{
+  background-color: #0ead82;
+}
+body{
+  background-color: #43d2ac;
+}
+
+
+.main{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+}
+.menu{
+  position: relative;
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+  background-color: #70573d;
+}
+.menu button{
+  background-color: #70573d;
+}
+.menu button:hover{
+  background-color: #ffffff;
+}
+.dropdown-menu{
+  background-color: #0c8a66;
+}
+
+.dropdown-menu a:hover{
+  background-color: #34c59c;
+}
+.hyper_links_section{
+  margin-top: 50px;
+  position: relative;
+  background-color: #e0e0bf;
+}
+
+.hyper_links_body{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.hyper_links_body ul{
+  list-style: none;
+}
+.hyper_links_body a{
+  color: #1f3fce;
+}
+.table_section{
+  margin-top: 50px;
+  position: relative;
+  background-color: #e0e0bf;
+}
+
+.form_section{
+  margin-top: 50px;
+  position: relative;
+  background-color: #e0e0bf;
+
+}
+.form-group input{
+  background-color: #ccccad;
+}
+.form-control{
+  background-color: #ccccad;
+}
+
+.footer{
+  margin-top: 20px;
+  background-color:#0c8a66;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  table thead{
+    display: none;
+  }
+
+  tr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  td {
+    padding-top: 35px;
+    position: relative;
+    width: 100%;
+  }
+
+  .table_section{
+    order: -1;
+    margin-bottom: 10px;
+  }
+}
